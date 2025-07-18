@@ -1,0 +1,17 @@
+{
+  "name": "Nisha Reetha",
+  "email": "nisha@example.com",
+  "summary": "Software engineer with experience in full-stack development.",
+  "education": [
+    { "degree": "B.Sc Computer Science", "institution": "XYZ University", "year": "2022" }
+  ],
+  "experience": [
+    {
+      "role": "Python Developer",
+      "company": "TechCorp",
+      "years": "2022–2024",
+      "details": "Worked on APIs, automation, and data tools."
+    }
+  ],
+  "skills": ["Python", "Django", "React", "SQL"]
+}

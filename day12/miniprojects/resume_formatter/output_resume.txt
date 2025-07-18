@@ -1,0 +1,14 @@
+Nisha Reetha
+nisha@example.com
+
+Software engineer with experience in full-stack development.
+
+Education:
+- B.Sc Computer Science at XYZ University (2022)
+
+Experience:
+- Python Developer at TechCorp (2022â€“2024)
+  Worked on APIs, automation, and data tools.
+
+Skills:
+Python, Django, React, SQL

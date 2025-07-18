@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Madrid"],
+    "answer": "Paris"
+  },
+  {
+    "question": "What does JSON stand for?",
+    "options": ["JavaScript Object Notation", "Java Source Open Null", "Just Some Other Name"],
+    "answer": "JavaScript Object Notation"
+  }
+]

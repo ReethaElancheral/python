@@ -1,0 +1,10 @@
+{
+  "Pasta": {
+    "ingredients": ["pasta", "tomato", "basil", "cheese"],
+    "steps": ["Boil pasta", "Prepare sauce", "Mix together", "Serve"]
+  },
+  "Pancake": {
+    "ingredients": ["flour", "milk", "egg", "sugar"],
+    "steps": ["Mix ingredients", "Heat pan", "Pour batter", "Flip and serve"]
+  }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "title": "bubble sort",
+        "description": "Classic sorting algorithm",
+        "code": "for i in range(len(arr)):for j in range(0, len(arr)-i-1):if arr[j] > arr[j+1]:arr[j], arr[j+1] = arr[j+1], arr[j]",
+        "tags": [
+            "sorting",
+            "array"
+        ],
+        "added_on": "2025-07-22 23:18"
+    }
+]

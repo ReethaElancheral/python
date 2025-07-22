@@ -1,0 +1,3 @@
+Name: Reetha
+Location: Qatar
+Currency: INR

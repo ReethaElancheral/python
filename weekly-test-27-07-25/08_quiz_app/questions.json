@@ -1,0 +1,22 @@
+[
+    {
+        "type": "mcq",
+        "prompt": "What is the capital of France?",
+        "options": ["Paris", "Berlin", "London", "Madrid"],
+        "answer": "Paris",
+        "difficulty": "easy"
+    },
+    {
+        "type": "tf",
+        "prompt": "The Earth is flat.",
+        "answer": false,
+        "difficulty": "easy"
+    },
+    {
+        "type": "mcq",
+        "prompt": "Which language is known as the language of the web?",
+        "options": ["Python", "Java", "JavaScript", "C++"],
+        "answer": "JavaScript",
+        "difficulty": "medium"
+    }
+]

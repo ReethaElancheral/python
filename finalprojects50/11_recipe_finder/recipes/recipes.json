@@ -1,0 +1,20 @@
+{
+  "Pancakes": {
+    "ingredients": ["flour", "milk", "egg", "sugar", "baking powder"],
+    "steps": [
+      "Mix dry ingredients.",
+      "Add milk and egg.",
+      "Stir until smooth.",
+      "Cook on griddle until golden."
+    ]
+  },
+  "Tomato Soup": {
+    "ingredients": ["tomato", "onion", "garlic", "salt", "water"],
+    "steps": [
+      "Chop tomatoes and onions.",
+      "Cook onions and garlic in pot.",
+      "Add tomatoes and water.",
+      "Simmer and season with salt."
+    ]
+  }
+}

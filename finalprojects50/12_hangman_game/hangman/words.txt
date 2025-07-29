@@ -1,0 +1,10 @@
+python
+programming
+development
+challenge
+hangman
+computer
+algorithm
+function
+variable
+exception

@@ -1,0 +1,76 @@
+{
+  "start": {
+    "description": "You are in a dark forest. Paths lie ahead.",
+    "choices": {
+      "Take the left path": "river",
+      "Take the right path": "cave"
+    }
+  },
+  "river": {
+    "description": "You reach a flowing river. There is a bridge and a boat.",
+    "choices": {
+      "Cross the bridge": "bridge_crossed",
+      "Use the boat": "boat_crossed"
+    },
+    "enemy": {
+      "name": "River Troll",
+      "damage": 15
+    }
+  },
+  "cave": {
+    "description": "You enter a spooky cave.",
+    "choices": {
+      "Light a torch": "torch_lit",
+      "Go back": "start"
+    },
+    "loot": "Ancient Coin"
+  },
+  "bridge_crossed": {
+    "description": "You safely crossed the bridge and find treasure!",
+    "choices": {
+      "Take treasure and end game": "end"
+    },
+    "loot": "Gold Coin"
+  },
+  "boat_crossed": {
+    "description": "The boat capsizes! You lose some health.",
+    "choices": {
+      "Swim to shore": "shore"
+    },
+    "enemy": {
+      "name": "Piranha",
+      "damage": 10
+    }
+  },
+  "torch_lit": {
+    "description": "The torch reveals hidden writings.",
+    "choices": {
+      "Read writings": "read_writing",
+      "Ignore and go back": "start"
+    }
+  },
+  "read_writing": {
+    "description": "The writings tell a secret passage nearby.",
+    "choices": {
+      "Take secret passage": "treasure_room",
+      "Ignore and go back": "start"
+    }
+  },
+  "treasure_room": {
+    "description": "You find a treasure room filled with jewels!",
+    "choices": {
+      "Take jewels and end game": "end"
+    },
+    "loot": "Jewels"
+  },
+  "shore": {
+    "description": "You reach shore tired but alive.",
+    "choices": {
+      "Rest": "start"
+    }
+  },
+  "end": {
+    "description": "Congratulations! You finished the adventure.",
+    "choices": {}
+  }
+}

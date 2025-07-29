@@ -1,0 +1,4 @@
+ham	Hello, how are you?
+spam	You won 10000 rupees! Claim now!
+ham	Meeting at 10am tomorrow.
+spam	Get free recharge by clicking this link!

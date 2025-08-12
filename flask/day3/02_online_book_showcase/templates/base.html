@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Showcase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>📚 Online Book Showcase</h1>
+        <nav>
+            <a href="{{ url_for('books_page') }}">Books</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>© 2025 Book Showcase</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Results for {{ student }}</h2>
+
+<h4>Grade:
+    {% if grade == "A" %}
+        <span class="badge bg-success">{{ grade }}</span>
+    {% elif grade == "B" %}
+        <span class="badge bg-warning text-dark">{{ grade }}</span>
+    {% else %}
+        <span class="badge bg-danger">{{ grade }}</span>
+    {% endif %}
+</h4>
+
+<table class="table table-striped mt-4">
+    <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for subject in subjects %}
+        <tr>
+            <td>{{ subject.name }}</td>
+            <td>{{ subject.marks }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
